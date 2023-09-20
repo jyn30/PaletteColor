@@ -1,0 +1,26 @@
+let box1 = document.querySelector('.box1');
+let box2 = document.querySelector('.box2');
+let box3 = document.querySelector('.box3');
+let box4 = document.querySelector('.box4');
+let box5 = document.querySelector('.box5');
+let box6 = document.querySelector('.box6');
+let b1 = document.querySelector ('.b1');
+let b2 = document.querySelector ('.b2');
+let b3 = document.querySelector ('.b3');
+let b4 = document.querySelector ('.b4');
+let b5 = document.querySelector ('.b5');
+let b6 = document.querySelector ('.b6');
+box1.addEventListener('click', function(){
+    box1.style.backgroundColor = "#FEBBA1";
+    box2.style.backgroundColor = "#CB97E9";
+    box3.style.backgroundColor = "#AE9AC8";
+    box4.style.backgroundColor = "#E8FC87";
+    box5.style.backgroundColor = "#FB865A";
+    box6.style.backgroundColor = "#FEB34D";
+    b1.textContent = "#FEBBA1";
+    b2.textContent = "#CB97E9";
+    b3.textContent = "#AE9AC8";
+    b4.textContent = "#E8FC87";
+    b5.textContent = "#FB865A";
+    b6.textContent = "#FEB34D";
+});

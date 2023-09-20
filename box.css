@@ -1,0 +1,144 @@
+@font-face {
+    font-family:'Black_Emerald';
+    src: url('./fonts/Black_Emerald.ttf');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-transform: uppercase;
+    font-size: 1rem;
+    background: #F3EFEC;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+
+h1,h4{
+    font-family:'Black_Emerald';
+    letter-spacing: 5px;
+    margin: 10px 0 20px 0;
+}
+
+h4{
+    margin-bottom: 50px;
+}
+  
+.box-content{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50% 50% 50%;
+    gap: 40px;
+    width: 400px;
+    height: 500px;
+}
+
+.box1{
+    background-color: #917EAD;
+    position: relative;
+}
+
+.box-black{
+    position: absolute;
+    border: 2px solid #000;
+    width: 200px;
+    height: 250px;
+    top: -10px;
+    left: 10px;
+    transform: translate(10px, -10px);
+
+}
+   
+.box2{
+    background-color: #007573;
+    position: relative;
+}
+.box-black2{
+    position: absolute;
+    border: 2px solid #000;
+    width: 200px;
+    height: 250px;
+    top: -10px;
+    left: 10px;
+    transform: translate(10px, -10px);
+
+}
+.box3{
+    background-color: #8CB9C5;
+    position: relative;
+}
+
+.box-black3{
+    position: absolute;
+    border: 2px solid #000;
+    width: 200px;
+    height: 250px;
+    top: -10px;
+    left: 10px;
+    transform: translate(10px, -10px);
+}
+
+.box4{
+    background-color: #F36400;
+    position: relative;
+}
+
+.box-black4{
+    position: absolute;
+    border: 2px solid #000;
+    width: 200px;
+    height: 250px;
+    top: -10px;
+    left: 10px;
+    transform: translate(10px, -10px);
+}
+
+.box5{
+    background-color: #FDA074;
+    position: relative;
+}
+
+.box-black5{
+    position: absolute;
+    border: 2px solid #000;
+    width: 200px;
+    height: 250px;
+    top: -10px;
+    left: 10px;
+    transform: translate(10px, -10px);
+}
+
+.box6{
+    background-color: #F9C770;
+    position: relative;
+    
+}
+
+.box-black6{
+    position: absolute;
+    border: 2px solid #000;
+    width: 200px;
+    height: 250px;
+    top: -10px;
+    left: 10px;
+    transform: translate(10px, -10px);
+    
+}
+
+.box-span{
+    padding: 5px;
+    margin-top: 220px;
+    color: #000;
+    font-size: 20px; 
+} 
+
+
+    
+      
